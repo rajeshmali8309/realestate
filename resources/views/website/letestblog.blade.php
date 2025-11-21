@@ -9,87 +9,72 @@
 
         <div class="container">
 
-            <div class="row gy-4">
+            <div class="row">
 
-                <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <article>
+    @for($i = 1; $i <= 3; $i++)
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="blog-card">
 
-                        <div class="post-img">
-                            <img src="{{ asset('website/assets/img/blog/blog-1.jpg') }}" alt="" class="img-fluid">
-                        </div>
+                <!-- IMAGE -->
+                <img src="{{ asset('website/assets/img/blog/blog-3.jpg') }}" alt="blog">
 
-                        <p class="post-category">Politics</p>
+                <div class="p-3">
 
-                        <h2 class="title">
-                            <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-                        </h2>
+                    <!-- CATEGORY -->
+                    <span class="badge bg-success mb-2">Category</span>
 
-                        <div class="d-flex align-items-center">
-                            <img src="{{ asset('website/assets/img/blog/blog-author.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
-                            <div class="post-meta">
-                                <p class="post-author">Maria Doe</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                                </p>
+                    <!-- DATE -->
+                    <small class="d-block text-muted mb-2 fs-7">Jan 10, 2025</small>
+
+                    <!-- TITLE -->
+                    <h5 class="fw-semibold">Sample Blog Title {{ $i }}</h5>
+
+                    <!-- DESCRIPTION -->
+                    <p class="text-muted" style="font-size:14px;">
+                        Short description of the blog goes here…
+                    </p>
+
+                    <!-- BUTTON + LIKE + COMMENT -->
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+
+                        <!-- Know More Button -->
+                        <a href="#" class="btn btn-outline-success btn-sm">Know More</a>
+
+                        <!-- Icons -->
+                        <div class="d-flex align-items-center gap-3">
+
+                            <!-- Like (default filled) -->
+                            <div class="d-flex align-items-center gap-1">
+                                <i class="fa-solid fa-heart" style="color:#e63946; font-size:18px;"></i>
+                                <small class="text-muted">2k</small>
                             </div>
-                        </div>
 
-                    </article>
-                </div><!-- End post list item -->
+                            <!-- Unlike (comment me rakh diya for condition) -->
+                            
+                            <!-- <div class="d-flex align-items-center gap-1">
+                                <i class="fa-regular fa-heart" style="color:#e63946; font-size:18px;"></i>
+                                <small class="text-muted">2k</small>
+                            </div> -->
+                        
 
-                <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <article>
-
-                        <div class="post-img">
-                            <img src="{{ asset('website/assets/img/blog/blog-2.jpg') }}" alt="" class="img-fluid">
-                        </div>
-
-                        <p class="post-category">Sports</p>
-
-                        <h2 class="title">
-                            <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-                        </h2>
-
-                        <div class="d-flex align-items-center">
-                            <img src="{{ asset('website/assets/img/blog/blog-author-2.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
-                            <div class="post-meta">
-                                <p class="post-author">Allisa Mayer</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                                </p>
+                            <!--Comment -->
+                            <div class="d-flex align-items-center gap-1">
+                                <i class="fa-regular fa-comment-dots" style="color:#059652; font-size:18px;"></i>
+                                <small class="text-muted">900</small>
                             </div>
+
                         </div>
 
-                    </article>
-                </div><!-- End post list item -->
+                    </div>
 
-                <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <article>
+                </div>
 
-                        <div class="post-img">
-                            <img src="{{ asset('website/assets/img/blog/blog-3.jpg') }}" alt="" class="img-fluid">
-                        </div>
+            </div>
+        </div>
+    @endfor
 
-                        <p class="post-category">Entertainment</p>
+</div>
 
-                        <h2 class="title">
-                            <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-                        </h2>
-
-                        <div class="d-flex align-items-center">
-                            <img src="{{ asset('website/assets/img/blog/blog-author-3.jpg') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
-                            <div class="post-meta">
-                                <p class="post-author">Mark Dower</p>
-                                <p class="post-date">
-                                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                                </p>
-                            </div>
-                        </div>
-
-                    </article>
-                </div><!-- End post list item -->
-
-            </div><!-- End recent posts list -->
 
         </div>
 

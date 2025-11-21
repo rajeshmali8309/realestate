@@ -28,6 +28,9 @@
 
     <!-- Main CSS File -->
     <link href="{{ asset('website/assets/css/main.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     @yield('head')
 </head>
 

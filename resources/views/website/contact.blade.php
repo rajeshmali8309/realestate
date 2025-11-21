@@ -120,10 +120,9 @@
         $('#HomePage').removeClass('active');
         $('#ContactPage').addClass('active');
 
-        $('#Aboutpage').hide();
-        $('#Servicespage').hide();
-        $('#faqpage').hide();
-        // $('#Letestpage').hide();
+        $('#Aboutpage').addClass('disable-area');
+        $('#Servicespage').addClass('disable-area');
+        $('#faqpage').addClass('disable-area');
     });
 </script>
 @endsection
