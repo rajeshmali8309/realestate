@@ -12,23 +12,19 @@
 
 <main class="main">
     <div id="contact">
-
-        <!-- Hero Section -->
-        <section class="hero section dark-background">
-
-            <img src="{{ asset('website/assets/img/contact_bg.jpeg') }}" alt="no bg image" data-aos="fade-in">
-
-            <div class="container d-flex flex-column align-items-center text-center">
-                <h2 data-aos="fade-up" data-aos-delay="100">Contact</h2>
-                <!-- <p data-aos="fade-up" data-aos-delay="200">Contact Us For Any Query</p> -->
-                <div data-aos="fade-up" data-aos-delay="300">
-                    <a href="{{ route('contact') }}" class="contact-icon-btn">
-                        <i class="bi bi-telephone-fill"></i>
-                    </a>
-                </div>
+        <!-- Page Title -->
+        <div class="page-title dark-background" data-aos="fade"
+            style="background-image: url('{{ asset('website/assets/img/contact_bg.jpeg') }}')">
+            <div class="container position-relative">
+                <h1>Contact Us</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{{route('index')}}">Home</a></li>
+                        <li class="current">Contact</li>
+                    </ol>
+                </nav>
             </div>
-
-        </section><!-- /Hero Section -->
+        </div>
 
         <!-- Contact Section -->
         <section class="contact section light-background">

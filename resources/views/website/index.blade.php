@@ -18,7 +18,7 @@
         <img src="{{ asset('website/assets/img/hero-bg.jpg') }}" alt="no bg image" data-aos="fade-in">
 
         <div class="container d-flex flex-column align-items-center text-center">
-            <h2 data-aos="fade-up" data-aos-delay="100">Welcome To Our Realestate Bloging Site</h2>
+            <h2 data-aos="fade-up" data-aos-delay="100">Explore the World of Real Estate with Expert Insights</h2>
             <p data-aos="fade-up" data-aos-delay="200">Discover the world of real estate with easy and helpful blogs</p>
             <div data-aos="fade-up" data-aos-delay="300">
                 <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>

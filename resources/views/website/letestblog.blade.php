@@ -4,7 +4,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Letest Top Blogs</h2>
-            <p>Read the latest Blogs filled with helpful tips, market insights, and simple guides to make your real estate journey easier.</p>
+            <p>Read the latest blogs filled with helpful tips, market insights, and simple guides to make your real estate journey easier.</p>
         </div><!-- End Section Title -->
 
         <div class="container">
