@@ -16,4 +16,8 @@ class WebController extends Controller
     public function Blogs(){
         return view('website.blogs');
     }
+
+    public function Singleblog(){
+        return view('website.singleblog');
+    }
 }

@@ -14,6 +14,8 @@ use App\Http\Controllers\WebController;
 |
 */
 
+// pages routes
 Route::get('/', [WebController::class, 'Index'])->name('index');
 Route::get('/contact', [WebController::class, 'Contact'])->name('contact');
 Route::get('/blogs', [WebController::class, 'Blogs'])->name('blogs');
+Route::get('/single-blog', [WebController::class, 'Singleblog'])->name('singleblog');

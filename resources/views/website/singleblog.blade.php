@@ -8,14 +8,13 @@
 
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade"
-        style="background-image: url('{{ asset('website/assets/img/blog_bg.jpeg') }}')">
+        style="background-image: url('{{ asset('website/assets/img/single_bg.jpeg') }}')">
         <div class="container position-relative">
-            <h1>Blog</h1>
-            <p>Read helpful articles, guides, and updates from the real estate world-all in one place.</p>
+            <!-- <h4>Single blog title</h4> -->
+            <p class="fs-3">Read helpful articles, guides, and updates from the real estate world-all in one place.</p>
             <nav class="breadcrumbs">
                 <ol>
-                    <li><a href="{{route('index')}}">Home</a></li>
-                    <li class="current">Blog</li>
+                    <button onclick="window.history.back()" class="btn btn-success btn-sm mt-2">Back</button>
                 </ol>
             </nav>
         </div>
@@ -69,7 +68,7 @@
                                     <div class="d-flex justify-content-between align-items-center">
 
                                         <!-- KNOW MORE BUTTON -->
-                                        <a href="{{route('singleblog')}}" class="btn btn-outline-success btn-sm mt-2">Know More</a>
+                                        <a href="#" class="btn btn-outline-success btn-sm mt-2">Know More</a>
 
                                         <!-- LIKE + COMMENT ICONS -->
                                         <div class="d-flex align-items-center gap-3">
@@ -146,14 +145,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('#HomePage').removeClass('active');
-        $('#ContactPage').removeClass('active');
-        $('#BlogPage').addClass('active');
-
-        $('#Aboutpage').addClass('disable-area');
-        $('#Servicespage').addClass('disable-area');
-        $('#faqpage').addClass('disable-area');
-        $('#Letestpage').addClass('disable-area');
+        // $('#HomePage').removeClass('active');
     });
 </script>
 
