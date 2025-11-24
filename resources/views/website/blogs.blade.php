@@ -69,7 +69,7 @@
                                     <div class="d-flex justify-content-between align-items-center">
 
                                         <!-- KNOW MORE BUTTON -->
-                                        <a href="{{route('singleblog')}}" class="btn btn-outline-success btn-sm mt-2">Know More</a>
+                                        <a href="{{route('singleblog')}}" class="btn btn-outline-success btn-sm mt-2">Read More</a>
 
                                         <!-- LIKE + COMMENT ICONS -->
                                         <div class="d-flex align-items-center gap-3">
